@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+body, h2, h3, p, button, input[type="email"], {
+    font-family: 'Roboto', sans-serif;
+    color: #333; 
+}
+
+body { 
+background-color:#FFD700
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.2em; 
+    font-weight: bold
+    padding: 20px;   
+    background-color: #F0E68C;
+    padding: 10px;
+}
+
+.main-nav img {
+    height: 60px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    padding: 0 20px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.search button {
+    padding: 5px 10px;
+    background-color: #4D5D53;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    padding: 20px 0;
+}
+
+
+.card article {
+    width: calc(33.333% - 40px); 
+    margin: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    background: #F0E68C; 
+}
+
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul {
+    padding-left: 0; 
+}
+
+article {
+    text-align: center;
+}
+
+
+.latest-products-title {
+    text-align: left;
+    padding-left: 20px; 
+    font-size: 2em;
+    margin-top: 20px;
+    color: #043927 ;
+}
+
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #FFD700;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}

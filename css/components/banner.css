@@ -1,0 +1,42 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+    height: 600px
+}
+
+.banner-video {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover; /* This will ensure the aspect ratio is maintained without stretching */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content h2{
+    font-size: 3em; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
+    color: white; /* Or any color that is visible on your banner */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text */
+    text-align: center; /* Aligns the text in the center */
+    width: 100%; 
+    z-index:2; /* Ensure it's above the video */
+    color: white; /* Change as necessary */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional text shadow for better readability */
+}
+
+.banner-content p {
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: white; /* Or any color that is visible on your banner */
+    position: absolute;
+    top: 60%; /* Positions the paragraph just below the heading */
+    left: 50%;
+    z-index:2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}

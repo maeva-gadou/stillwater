@@ -1,0 +1,11 @@
+button {
+    background-color: #4CAF50; /* Green */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: background-color 0.3s ease; /* smooth color transition */
+}
